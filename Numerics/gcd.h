@@ -1,7 +1,7 @@
 // GCD
 #pragma once
-#ifndef GCD_PNC
-#define GCD_PNC
+#ifndef BOUTIQUE_GCD
+#define BOUTIQUE_GCD
 
 
 namespace btq {
