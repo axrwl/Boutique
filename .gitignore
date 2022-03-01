@@ -1,0 +1,4 @@
+// .gitnignore
+
+#MacOS
+.DS_Store
