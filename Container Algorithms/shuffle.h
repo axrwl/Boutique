@@ -1,6 +1,5 @@
-// Randomly shuffle elements
-// Similar function is already implemented in the STL - std::shuffle
-// Here it is implemented to gain knowledge and experience
+// Randomly shuffles elements
+// Already implemented in the STL - std::shuffle
 #pragma once
 #ifndef BOUTIQUE_SHUFFLE
 #define BOUTIQUE_SHUFFLE
