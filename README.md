@@ -6,7 +6,7 @@ Boutique is not an alternative to the C++ standard library, moreover, it is not 
 
 
 ## Contributors
-[KingOfDireWolves](https://github.com/kingOfDireWolves/)
+[KingOfDireWolves](https://github.com/KingOfDireWolves/)
 
 
 ## Algorithms implemented 
