@@ -17,6 +17,8 @@ Boutique is not an alternative to the C++ standard library, moreover, it is not 
 | Shuffle | [Container Algorithms/shuffle.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/shuffle.h) | Implemented |
 | Fold | [Container Algorithms/fold.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/fold.h) | Implemented |
 | Reverse | [Container Algorithms/reverse.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/reverse.h) | Implemented |
+| Rotate | [Container Algorithms/rotate.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/rotate.h) | Implemented |
+| Fill | [Container Algorithms/fill.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/fill.h) | Implemented |
 | Min Element | [Container Algorithms/min_element.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/min_element.h) | Implemented |
 | Max Element | [Container Algorithms/max_element.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/max_element.h) | Implemented |
 
