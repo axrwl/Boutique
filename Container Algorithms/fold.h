@@ -7,7 +7,7 @@
 #include <utility>
 
 namespace btq {
-    template< typename T, typename InputIt, typename BinaryOp>
+    template<typename T, typename InputIt, typename BinaryOp>
     T fold(InputIt begin, InputIt end, T i, BinaryOp orz) {
         while (begin != end) {
             i = orz(std::move(i), *begin);
