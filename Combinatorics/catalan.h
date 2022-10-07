@@ -8,7 +8,7 @@
 #include <numbers>
 
 namespace btq {
-    int catalanNumbersCache[15] = {1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440};
+    const int catalanNumbersCache[15] = {1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, 16796, 58786, 208012, 742900, 2674440};
     long long cat(int n) {
         if (n < 15)
             return catalanNumbersCache[n];
@@ -20,6 +20,6 @@ namespace btq {
         
     }
 
-} // namespace boutique
+}
 
-#endif // BOUTIQUE_CATALAN_H
+#endif
