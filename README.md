@@ -2,43 +2,51 @@
 
 Boutique is a collection of algorithms in C++. 
 
-Boutique is not an alternative to the C++ standard library, moreover, it is not supposed to be used as a library at all. 
+Bourique's headers can act as header only libraries for your C++ project.
 
 
 ## Contributors
-[KingOfDireWolves](https://github.com/kodwx/)
+[kodwx](https://github.com/kodwx/)
 
 
 ## Algorithms implemented 
 
 ### Container Algorithms
-| Name | File | Status | 
+| Name | File | Requirements | 
 |------|------|--------|
-| Shuffle | [Container Algorithms/shuffle.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/shuffle.h) | Implemented |
-| Fold | [Container Algorithms/fold.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/fold.h) | Implemented |
-| Reverse | [Container Algorithms/reverse.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/reverse.h) | Implemented |
-| Rotate | [Container Algorithms/rotate.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/rotate.h) | Implemented |
-| Fill | [Container Algorithms/fill.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/fill.h) | Implemented |
-| Min Element | [Container Algorithms/min_element.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/min_element.h) | Implemented |
-| Max Element | [Container Algorithms/max_element.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Container%20Algorithms/max_element.h) | Implemented |
+| Shuffle | [Container Algorithms/shuffle.h](https://github.com/kodwx/Boutique/blob/main/Container%20Algorithms/shuffle.h) | |
+| Fold | [Container Algorithms/fold.h](https://github.com/kodwx/Boutique/blob/main/Container%20Algorithms/fold.h) | |
+| Reverse | [Container Algorithms/reverse.h](https://github.com/kodwx/Boutique/blob/main/Container%20Algorithms/reverse.h) | |
+| Min Element | [Container Algorithms/min_element.h](https://github.com/kodwx/Boutique/blob/main/Container%20Algorithms/min_element.h) | |
+| Max Element | [Container Algorithms/max_element.h](https://github.com/kodwx/Boutique/blob/main/Container%20Algorithms/max_element.h) | |
 
 ### Numerics
-| Name | File | Status | 
+| Name | File | Requirements | 
 |------|------|--------|
-| Modular Exponentiation | [Numerics/exp.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Numerics/exp.h) | Implemented |
-| GCD | [Numerics/gcd.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Numerics/gcd.h) | Implemented |
+| Modular Exponentiation | [Numerics/exp.h](https://github.com/kodwx/Boutique/blob/main/Numerics/exp.h) | |
+| GCD | [Numerics/gcd.h](https://github.com/kodwx/Boutique/blob/main/Numerics/gcd.h) | |
 
 ### Combinatorics
-| Name | File | Status | 
+| Name | File | Requirements | 
 |------|------|--------|
-| Factorial | [Combinatorics/factorial.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Combinatorics/factorial.h) | Implemented |
-| Catalan Numbers | [Combinatorics/catalan.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Combinatorics/catalan.h) | Implemented |
-| Binomial Coefficient | [Combinatorics/pnc.h](https://github.com/KingOfDireWolves/Boutique/blob/main/Combinatorics/pnc.h) | Implemented |
+| Factorial | [Combinatorics/factorial.h](https://github.com/kodwx/Boutique/blob/main/Combinatorics/factorial.h) | |
+| Catalan Numbers | [Combinatorics/catalan.h](https://github.com/kodwx/Boutique/blob/main/Combinatorics/catalan.h) | |
+| Binomial Coefficient | [Combinatorics/pnc.h](https://github.com/kodwx/Boutique/blob/main/Combinatorics/pnc.h) | [Combinatorics/factorial.h](https://github.com/kodwx/Boutique/blob/main/Combinatorics/factorial.h) |
+| Bell Numbers | [Combinatorics/bell.h](https://github.com/kodwx/Boutique/blob/main/Combinatorics/bell.h) | |
 
 ### String Algorithms
-| Name | File | Status | 
+| Name | File | Requirements | 
 |------|------|--------|
-| Palindrome | [String/palindrome.h](https://github.com/KingOfDireWolves/Boutique/blob/main/String/palindrome.h) | Implemented |
+| KMP Algorithm | [String/kmp.h](https://github.com/kodwx/Boutique/blob/main/String/kmp.h) | |
+| Palindrome | [String/palindrome.h](https://github.com/kodwx/Boutique/blob/main/String/palindrome.h) | |
+| Hash | [String/hash.h](https://github.com/kodwx/Boutique/blob/main/String/hash.h) | |
+| Rabin Karp Algorithm | [String/rabinkarp.h](https://github.com/kodwx/Boutique/blob/main/String/rabinkarp.h) | [String/hash.h](https://github.com/kodwx/Boutique/blob/main/String/hash.h) |
 
-
-
+### Sortingg Algorithms
+| Name | File | Requirements | 
+|------|------|--------|
+| Bubble Sort | [Sort/bubble.h](https://github.com/kodwx/Boutique/blob/main/Sort/bubble.h) | |
+| Heap Sort | [Sort/heap.h](https://github.com/kodwx/Boutique/blob/main/Sort/heap.h) | |
+| Insertion Sort | [Sort/insertion.h](https://github.com/kodwx/Boutique/blob/main/Sort/insertion.h) | |
+| Permutation Sort | [Sort/permutation.h](https://github.com/kodwx/Boutique/blob/main/Sort/permutation.h) | |
+| Selection Sort | [Sort/selection.h](https://github.com/kodwx/Boutique/blob/main/Sort/selection.h) | |
